@@ -1,0 +1,238 @@
+src/main/java/com/cognizant/OrderApplication.java:6:	UnusedImports: Avoid unused imports such as 'org.springframework.context.annotation.ComponentScan'
+src/main/java/com/cognizant/OrderApplication.java:6:	UnusedImports: Avoid unused imports such as 'org.springframework.context.annotation.ComponentScan'
+src/main/java/com/cognizant/OrderApplication.java:13:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/OrderApplication.java:13:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/OrderApplication.java:13:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/cognizant/OrderApplication.java:13:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/cognizant/OrderApplication.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/OrderApplication.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/OrderApplication.java:15:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/cognizant/OrderApplication.java:15:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/cognizant/OrderService.java:3:	UnusedImports: Avoid unused imports such as 'java.util.List'
+src/main/java/com/cognizant/OrderService.java:3:	UnusedImports: Avoid unused imports such as 'java.util.List'
+src/main/java/com/cognizant/OrderService.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/cognizant/OrderService.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/cognizant/OrderService.java:16:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/OrderService.java:16:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/OrderService.java:17:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/cognizant/OrderService.java:17:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/cognizant/OrderService.java:18:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/OrderService.java:18:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/OrderService.java:18:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the ord field if you want a default access modifier
+src/main/java/com/cognizant/OrderService.java:18:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the ord field if you want a default access modifier
+src/main/java/com/cognizant/OrderService.java:18:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/OrderService.java:18:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/OrderService.java:19:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/cognizant/OrderService.java:19:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/cognizant/OrderService.java:20:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/OrderService.java:20:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/OrderService.java:20:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the menu field if you want a default access modifier
+src/main/java/com/cognizant/OrderService.java:20:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the menu field if you want a default access modifier
+src/main/java/com/cognizant/OrderService.java:20:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/OrderService.java:20:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/OrderService.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/OrderService.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/OrderService.java:22:	MethodArgumentCouldBeFinal: Parameter 'menuid' is not assigned and could be declared final
+src/main/java/com/cognizant/OrderService.java:22:	MethodArgumentCouldBeFinal: Parameter 'menuid' is not assigned and could be declared final
+src/main/java/com/cognizant/OrderService.java:22:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/main/java/com/cognizant/OrderService.java:22:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/main/java/com/cognizant/OrderService.java:22:	MethodArgumentCouldBeFinal: Parameter 'token' is not assigned and could be declared final
+src/main/java/com/cognizant/OrderService.java:22:	MethodArgumentCouldBeFinal: Parameter 'token' is not assigned and could be declared final
+src/main/java/com/cognizant/OrderService.java:42:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/cognizant/OrderService.java:42:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/cognizant/OrderService.java:44:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'menuItem' (lines '44'-'48').
+src/main/java/com/cognizant/OrderService.java:44:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'menuItem' (lines '44'-'48').
+src/main/java/com/cognizant/OrderService.java:44:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cognizant/OrderService.java:44:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cognizant/OrderService.java:44:	LocalVariableCouldBeFinal: Local variable 'menuItem' could be declared final
+src/main/java/com/cognizant/OrderService.java:44:	LocalVariableCouldBeFinal: Local variable 'menuItem' could be declared final
+src/main/java/com/cognizant/OrderService.java:44:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/com/cognizant/OrderService.java:44:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/com/cognizant/OrderService.java:44:	UnusedLocalVariable: Avoid unused local variables such as 'menuItem'.
+src/main/java/com/cognizant/OrderService.java:44:	UnusedLocalVariable: Avoid unused local variables such as 'menuItem'.
+src/main/java/com/cognizant/OrderService.java:45:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cognizant/OrderService.java:45:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/cognizant/OrderService.java:45:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cognizant/OrderService.java:45:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cognizant/OrderService.java:45:	LocalVariableCouldBeFinal: Local variable 'ordin' could be declared final
+src/main/java/com/cognizant/OrderService.java:45:	LocalVariableCouldBeFinal: Local variable 'ordin' could be declared final
+src/main/java/com/cognizant/client/AuthRepo.java:14:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/client/AuthRepo.java:14:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/client/AuthRepo.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/client/AuthRepo.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/client/AuthRepo.java:16:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'verifyToken': the method is declared in an interface type
+src/main/java/com/cognizant/client/AuthRepo.java:16:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'verifyToken': the method is declared in an interface type
+src/main/java/com/cognizant/client/MenuClient.java:3:	UnusedImports: Avoid unused imports such as 'java.util.List'
+src/main/java/com/cognizant/client/MenuClient.java:3:	UnusedImports: Avoid unused imports such as 'java.util.List'
+src/main/java/com/cognizant/client/MenuClient.java:12:	UnusedImports: Avoid unused imports such as 'com.cognizant.model.Order'
+src/main/java/com/cognizant/client/MenuClient.java:12:	UnusedImports: Avoid unused imports such as 'com.cognizant.model.Order'
+src/main/java/com/cognizant/client/MenuClient.java:15:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/client/MenuClient.java:15:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/client/MenuClient.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/client/MenuClient.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/client/MenuClient.java:19:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/cognizant/client/MenuClient.java:19:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/cognizant/client/MenuClient.java:19:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAll': the method is declared in an interface type
+src/main/java/com/cognizant/client/MenuClient.java:19:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAll': the method is declared in an interface type
+src/main/java/com/cognizant/controller/OrderController.java:10:	UnusedImports: Avoid unused imports such as 'org.springframework.web.bind.annotation.RequestMapping'
+src/main/java/com/cognizant/controller/OrderController.java:10:	UnusedImports: Avoid unused imports such as 'org.springframework.web.bind.annotation.RequestMapping'
+src/main/java/com/cognizant/controller/OrderController.java:11:	UnusedImports: Avoid unused imports such as 'org.springframework.web.bind.annotation.RequestMethod'
+src/main/java/com/cognizant/controller/OrderController.java:11:	UnusedImports: Avoid unused imports such as 'org.springframework.web.bind.annotation.RequestMethod'
+src/main/java/com/cognizant/controller/OrderController.java:22:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/cognizant/controller/OrderController.java:22:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/cognizant/controller/OrderController.java:22:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/controller/OrderController.java:22:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/controller/OrderController.java:24:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/cognizant/controller/OrderController.java:24:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/cognizant/controller/OrderController.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/controller/OrderController.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/controller/OrderController.java:25:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the authclient field if you want a default access modifier
+src/main/java/com/cognizant/controller/OrderController.java:25:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the authclient field if you want a default access modifier
+src/main/java/com/cognizant/controller/OrderController.java:25:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/controller/OrderController.java:25:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/controller/OrderController.java:27:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/cognizant/controller/OrderController.java:27:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/cognizant/controller/OrderController.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/controller/OrderController.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/controller/OrderController.java:28:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the service field if you want a default access modifier
+src/main/java/com/cognizant/controller/OrderController.java:28:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the service field if you want a default access modifier
+src/main/java/com/cognizant/controller/OrderController.java:28:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/controller/OrderController.java:28:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/controller/OrderController.java:34:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/controller/OrderController.java:34:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/controller/OrderController.java:34:	MethodArgumentCouldBeFinal: Parameter 'menuitem' is not assigned and could be declared final
+src/main/java/com/cognizant/controller/OrderController.java:34:	MethodArgumentCouldBeFinal: Parameter 'menuitem' is not assigned and could be declared final
+src/main/java/com/cognizant/controller/OrderController.java:34:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/main/java/com/cognizant/controller/OrderController.java:34:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/main/java/com/cognizant/controller/OrderController.java:34:	MethodArgumentCouldBeFinal: Parameter 'token' is not assigned and could be declared final
+src/main/java/com/cognizant/controller/OrderController.java:34:	MethodArgumentCouldBeFinal: Parameter 'token' is not assigned and could be declared final
+src/main/java/com/cognizant/controller/OrderController.java:36:	SystemPrintln: System.out.println is used
+src/main/java/com/cognizant/controller/OrderController.java:36:	SystemPrintln: System.out.println is used
+src/main/java/com/cognizant/controller/OrderController.java:37:	LocalVariableCouldBeFinal: Local variable 'authResponse' could be declared final
+src/main/java/com/cognizant/controller/OrderController.java:37:	LocalVariableCouldBeFinal: Local variable 'authResponse' could be declared final
+src/main/java/com/cognizant/controller/OrderController.java:38:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cognizant/controller/OrderController.java:38:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/cognizant/controller/OrderController.java:40:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/cognizant/controller/OrderController.java:40:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/cognizant/controller/OrderController.java:50:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/controller/OrderController.java:50:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:3:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:3:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:3:	DataClass: The class 'AuthResponse' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=8)
+src/main/java/com/cognizant/model/AuthResponse.java:3:	DataClass: The class 'AuthResponse' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=4, WMC=8)
+src/main/java/com/cognizant/model/AuthResponse.java:4:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:4:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:4:	FieldNamingConventions: The field name 'Uid' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/cognizant/model/AuthResponse.java:4:	FieldNamingConventions: The field name 'Uid' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/cognizant/model/AuthResponse.java:4:	VariableNamingConventions: Variables should start with a lowercase character, 'Uid' starts with uppercase character.
+src/main/java/com/cognizant/model/AuthResponse.java:4:	VariableNamingConventions: Variables should start with a lowercase character, 'Uid' starts with uppercase character.
+src/main/java/com/cognizant/model/AuthResponse.java:5:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:5:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:5:	FieldNamingConventions: The field name 'Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/cognizant/model/AuthResponse.java:5:	FieldNamingConventions: The field name 'Name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/cognizant/model/AuthResponse.java:5:	VariableNamingConventions: Variables should start with a lowercase character, 'Name' starts with uppercase character.
+src/main/java/com/cognizant/model/AuthResponse.java:5:	VariableNamingConventions: Variables should start with a lowercase character, 'Name' starts with uppercase character.
+src/main/java/com/cognizant/model/AuthResponse.java:6:	AvoidFieldNameMatchingMethodName: Field isValid has the same name as a method
+src/main/java/com/cognizant/model/AuthResponse.java:6:	AvoidFieldNameMatchingMethodName: Field isValid has the same name as a method
+src/main/java/com/cognizant/model/AuthResponse.java:6:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/model/AuthResponse.java:6:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/cognizant/model/AuthResponse.java:6:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:6:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:10:	MethodArgumentCouldBeFinal: Parameter 'uid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:10:	MethodArgumentCouldBeFinal: Parameter 'uid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:16:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:16:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:22:	MethodArgumentCouldBeFinal: Parameter 'isValid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:22:	MethodArgumentCouldBeFinal: Parameter 'isValid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:25:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:25:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:25:	MethodArgumentCouldBeFinal: Parameter 'isValid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:25:	MethodArgumentCouldBeFinal: Parameter 'isValid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:25:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:25:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:25:	MethodArgumentCouldBeFinal: Parameter 'uid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:25:	MethodArgumentCouldBeFinal: Parameter 'uid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/AuthResponse.java:31:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/AuthResponse.java:31:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/MenuItem.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/cognizant/model/MenuItem.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/cognizant/model/MenuItem.java:6:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/model/MenuItem.java:6:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/model/MenuItem.java:6:	DataClass: The class 'MenuItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/cognizant/model/MenuItem.java:6:	DataClass: The class 'MenuItem' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/cognizant/model/MenuItem.java:10:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/MenuItem.java:10:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/MenuItem.java:12:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/MenuItem.java:12:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/MenuItem.java:14:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/MenuItem.java:14:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/MenuItem.java:16:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/MenuItem.java:16:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/MenuItem.java:20:	MethodArgumentCouldBeFinal: Parameter 'itemid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/MenuItem.java:20:	MethodArgumentCouldBeFinal: Parameter 'itemid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/MenuItem.java:26:	MethodArgumentCouldBeFinal: Parameter 'itemtype' is not assigned and could be declared final
+src/main/java/com/cognizant/model/MenuItem.java:26:	MethodArgumentCouldBeFinal: Parameter 'itemtype' is not assigned and could be declared final
+src/main/java/com/cognizant/model/MenuItem.java:32:	MethodArgumentCouldBeFinal: Parameter 'itemname' is not assigned and could be declared final
+src/main/java/com/cognizant/model/MenuItem.java:32:	MethodArgumentCouldBeFinal: Parameter 'itemname' is not assigned and could be declared final
+src/main/java/com/cognizant/model/MenuItem.java:38:	MethodArgumentCouldBeFinal: Parameter 'itemprice' is not assigned and could be declared final
+src/main/java/com/cognizant/model/MenuItem.java:38:	MethodArgumentCouldBeFinal: Parameter 'itemprice' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:9:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/model/Order.java:9:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/model/Order.java:9:	DataClass: The class 'Order' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+src/main/java/com/cognizant/model/Order.java:9:	DataClass: The class 'Order' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+src/main/java/com/cognizant/model/Order.java:12:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/Order.java:12:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/Order.java:12:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/cognizant/model/Order.java:12:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/cognizant/model/Order.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/Order.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/Order.java:19:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:19:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:19:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/cognizant/model/Order.java:19:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/cognizant/model/Order.java:25:	MethodArgumentCouldBeFinal: Parameter 'menuid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:25:	MethodArgumentCouldBeFinal: Parameter 'menuid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:31:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:31:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/Order.java:34:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/cognizant/model/Order.java:34:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	MethodArgumentCouldBeFinal: Parameter 'menuid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	MethodArgumentCouldBeFinal: Parameter 'menuid' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	MethodArgumentCouldBeFinal: Parameter 'quantity' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	MethodArgumentCouldBeFinal: Parameter 'totalprice' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	MethodArgumentCouldBeFinal: Parameter 'totalprice' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:34:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/cognizant/model/Order.java:34:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/cognizant/model/Order.java:44:	MethodArgumentCouldBeFinal: Parameter 'totalprice' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:44:	MethodArgumentCouldBeFinal: Parameter 'totalprice' is not assigned and could be declared final
+src/main/java/com/cognizant/model/Order.java:48:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/Order.java:48:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/Order.java:48:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/cognizant/model/Order.java:48:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/cognizant/model/Order.java:50:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/Order.java:50:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/Order.java:50:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/cognizant/model/Order.java:50:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/cognizant/model/Order.java:52:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/Order.java:52:	CommentRequired: Field comments are required
+src/main/java/com/cognizant/model/Order.java:52:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/cognizant/model/Order.java:52:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/cognizant/repository/OrderRepository.java:7:	CommentRequired: Class comments are required
+src/main/java/com/cognizant/repository/OrderRepository.java:7:	CommentRequired: Class comments are required
+src/test/java/com/cognizant/order/OrderApplicationTests.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/cognizant/order/OrderApplicationTests.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/cognizant/order/OrderApplicationTests.java:7:	CommentRequired: Class comments are required
+src/test/java/com/cognizant/order/OrderApplicationTests.java:7:	CommentRequired: Class comments are required
+src/test/java/com/cognizant/order/OrderApplicationTests.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/com/cognizant/order/OrderApplicationTests.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/com/cognizant/order/OrderApplicationTests.java:10:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/cognizant/order/OrderApplicationTests.java:10:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/cognizant/order/OrderApplicationTests.java:10:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/cognizant/order/OrderApplicationTests.java:10:	UncommentedEmptyMethodBody: Document empty method body
